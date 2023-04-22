@@ -1,0 +1,28 @@
+spring:
+  profiles:
+    active: pro
+
+
+---
+spring:
+  config:
+    activate:
+      on-profile: pro
+server:
+  port: 81
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+server:
+  port: 82
+
+---
+server:
+  port: 83
+spring:
+  config:
+    activate:
+      on-profile: test

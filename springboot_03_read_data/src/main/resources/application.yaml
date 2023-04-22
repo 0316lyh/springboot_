@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+lesson: SpringBoot
+
+enterprise:
+  name: lyh
+  age: 16
+  tel: 6606
+  subject:
+    - java
+    - JavaScript
+    - html
